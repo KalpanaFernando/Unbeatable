@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">project39</string>
+    <array name="date">
+        <item>Monday,Today,2022</item>
+        <item>Monday,May 16,2022</item>
+        <item>Monday,May 17,2022</item>
+        <item>Monday,May 18,2022</item>
+        <item>Monday,May 19,2022</item>
+        <item>Monday,May 20,2022</item>
+    </array>
+
+    <array name="time">
+        <item>9:00AM - 9:45AM</item>
+        <item>10:00AM - 10:45AM</item>
+        <item>11:00AM - 11:45AM</item>
+        <item>12:00PM - 12:45PM</item>
+        <item>01:00PM - 01:45PM</item>
+        <item>02:00PM - 02:45PM</item>
+    </array>
+</resources>
