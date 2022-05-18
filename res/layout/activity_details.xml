@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DetailsActivity">
+
+    <TextView
+        android:id="@+id/details_views2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="views"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_date" />
+
+    <TextView
+        android:id="@+id/details_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="Date  "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_phnum" />
+
+    <TextView
+        android:id="@+id/details_phnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="phone number  "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_email" />
+
+    <TextView
+        android:id="@+id/details_email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="email "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_cimg" />
+
+    <ImageView
+        android:id="@+id/details_cimg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover_bg" />
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/details_cimg"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/details_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:text="Full Name"
+        android:textSize="32dp"
+        app:layout_constraintStart_toEndOf="@+id/detail_image"
+        app:layout_constraintTop_toTopOf="@+id/details_cimg" />
+
+    <TextView
+        android:id="@+id/details_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="email "
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_email2"
+        app:layout_constraintTop_toBottomOf="@+id/details_cimg" />
+
+    <TextView
+        android:id="@+id/details_phnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="phone number  "
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_phnum2"
+        app:layout_constraintTop_toBottomOf="@+id/details_email" />
+
+    <TextView
+        android:id="@+id/details_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="Date  "
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_date2"
+        app:layout_constraintTop_toBottomOf="@+id/details_phnum" />
+
+    <TextView
+        android:id="@+id/details_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/reg_edittext_style"
+        android:text="views"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_views2"
+        app:layout_constraintTop_toBottomOf="@+id/details_date" />
+
+    <TextView
+        android:id="@+id/details_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="18dp"
+        android:text="User Name"
+        app:layout_constraintStart_toEndOf="@+id/detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/details_fname" />
+</androidx.constraintlayout.widget.ConstraintLayout>
